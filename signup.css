@@ -1,0 +1,354 @@
+body{
+    background-color: #94addb;
+    padding: 0px;
+    font-size: 20px;
+      
+    }
+    
+    .container-form{
+        width: 40%;
+        background-color: #ffffff;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+       
+    }
+    
+    /* Username inpute field Begins here */
+    
+    
+    /* a[ href="">whatsapp] */
+    
+    input[type=text]{
+        border-radius: 15px;
+        width: 50%;
+        padding: 15px;
+        border: 1px solid gray;
+        text-indent: 28px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    
+    }
+    
+    input[type=text]:focus{
+        border-radius: 15px;
+        border: 1px solid lightblue;
+        outline: none;
+        text-indent: 28px;
+        font-size: 20px;
+        
+    }
+    
+    ::placeholder{
+        font-size: 18px;
+        color: lightblue;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px;
+    }
+    
+    .form-user{
+        position: relative;
+    }
+    
+    .user{
+        position: absolute;
+        top: 10px;
+        left: 24%;
+        font-size: 25px;
+    }
+    
+    /* Username inpute field Ends here */
+    
+    /* Email input field Begins here */
+    
+    input[type=email] {
+        border-radius: 15px;
+        width: 50%;
+        padding: 15px;
+        border: 1px solid gray;
+        text-indent: 28px;
+        font-size: 15px;
+         margin-bottom: 10px;
+    
+    }
+    
+    input[type=email]:focus {
+        border-radius: 15px;
+        border: 1px solid lightblue;
+        outline: none;
+        text-indent: 28px;
+        font-size: 20px;
+    
+    }
+    
+    ::placeholder {
+        font-size: 18px;
+        color: lightblue;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px;
+    }
+    
+    .form-email {
+        position: relative;
+    }
+    
+    .email {
+        position: absolute;
+        top: 10px;
+        left: 24%;
+        font-size: 25px;
+    }
+    
+    /* Email field ends here */
+    
+    /* Phone number Begins Here */
+    input[type=number] {
+        border-radius: 15px;
+        width: 50%;
+        padding: 15px;
+        border: 1px solid gray;
+        text-indent: 28px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    
+    }
+    
+    input[type=number]:focus {
+        border-radius: 15px;
+        border: 1px solid lightblue;
+        outline: none;
+        text-indent: 28px;
+        font-size: 20px;
+    
+    }
+    
+    ::placeholder {
+        font-size: 18px;
+        color: lightblue;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px;
+    }
+    
+    .form-phone{
+        position: relative;
+    }
+    
+    .phone {
+        position: absolute;
+        top: 10px;
+        left: 24%;
+        font-size: 25px;
+    }
+    
+    /* Password Begins Here */
+    input[type=password] {
+        border-radius: 15px;
+        width: 50%;
+        padding: 15px;
+        border: 1px solid gray;
+        text-indent: 28px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    
+    }
+    
+    input[type=password]:focus {
+        border-radius: 15px;
+        border: 1px solid lightblue;
+        outline: none;
+        text-indent: 28px;
+        font-size: 20px;
+    
+    }
+    
+    ::placeholder {
+        font-size: 18px;
+        color: lightblue;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 10px;
+    }
+    
+    .form-class {
+        position: relative;
+    }
+    
+    .password {
+        position: absolute;
+        top: 10px;
+        left: 24%;
+        font-size: 25px;
+    }
+    
+    /* Submit Button begins here */
+    
+    .btn-btn{
+        background-color: rgb(30, 157, 108);
+        padding: 10px 30px;
+        font-size: 25px;
+        border-radius: 20px;
+        border: 0px;
+        color: white;
+        /* margin-bottom: 20px; */
+        margin: 20px 0px;
+        width: 50%;
+    }
+    
+    /* Divider starts here */
+    .divider{
+        display: flex;
+        align-items: center;
+    }
+    
+    .divider::before, .divider::after{
+        content: "";
+        padding: 1px;
+        background-color:rgb(192, 192, 192);
+        flex: 1px;
+        margin: 30px 5px;
+    }
+    
+    .divider-bg{
+       border: 1px solid rgb(192, 192, 192);
+       padding: 5px;
+       border-radius: 25px;
+    }
+    
+    /* Social Login button */
+    .btn-social{
+        
+        background-color: #5890FF;
+        padding: 5px 15px;
+        margin: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    
+    .btn-social:nth-child(2) {
+        background-color: #00acee;
+    }
+    
+    .btn-social:nth-child(3){
+        background-color: #db4a39;
+    }
+    
+    /* Mobile responsiveness */
+    
+    /* @media (min-width: 724x) and (max-width: 1100px ){
+        body{
+            background-color:red;
+        }
+    
+        
+    
+            .btn-social {
+        
+                background-color: #5890FF;
+                padding: 5px 10px;
+                margin: 5px;
+                border-radius: 10px;
+                text-decoration: none;
+                color: aliceblue;
+            }
+    } */
+    
+    
+    @media(max-width: 1100px) {
+        body{
+            overflow-x: hidden;
+        }
+        .container-form {
+    
+            width: 100%;
+            
+            }
+    
+            .btn-social{
+                padding: 10px 20px;
+                margin: 5px;
+                
+            }
+    
+            .container-form p{
+                padding: 20px;
+            }
+    
+    
+                    input[type=text] {
+                        
+                        width: 80%;
+                        
+            
+                    }
+    
+                   input[type=email] {
+                    
+                      width: 80%;                          
+                     }
+    
+                         input[type=number] {
+                    
+                        width: 80%;
+                        }
+    
+                            input[type=password] {
+                        
+                             width: 80%;
+                             }
+    
+    
+                    .form-user {
+                        position: relative;
+                    }
+            
+                    .user {
+                        position: absolute;
+                        top: 10px;
+                        left: 10%;
+                        font-size: 20px;
+                    }
+    
+                    .form-email {
+                        position: relative;
+                    }
+    
+                    .email {
+                        position: absolute;
+                        top: 10px;
+                        left: 10%;
+                        font-size: 20px;
+                    }
+    
+                    .form-phone {
+                        position: relative;
+                    }
+    
+                    .phone {
+                        position: absolute;
+                        top: 10px;
+                        left: 10%;
+                        font-size: 20px;
+                    }
+    
+                    .form-passwordl {
+                        position: relative;
+                    }
+    
+                    .password {
+                        position: absolute;
+                        top: 10px;
+                        left: 10%;
+                        font-size: 25px;
+                    }
+    
+                    
+    
+                    
+                    
+    
+    
+    }
